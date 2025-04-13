@@ -82,7 +82,12 @@ The running demo shows in **./Video_sequence_driver-Example.ipynb**, you can fol
 <p align="center">Generation result for video driven<p align="center">
 
 ### AUs instruction
-The running demo shows in **./AUs-Example.ipynb**, you can follow the ipynb settings to run the code.
+The running demo shows in **./AUs-Example.ipynb**, you can follow the ipynb settings to run the code. For you to reference, the following image show the corresponding AUs coefficients' meaning.
+
+<p align="center"> 
+    <img src="./image_for_readme/openface.jpg">
+</p>  
+
 <p align="center"> 
     <img src="./image_for_readme/AU-running.png">
 </p>  
@@ -97,7 +102,8 @@ For functions or scripts that are based on external sources, we acknowledge the 
 Here are some great resources benefit:
 
 - [DECA: Detailed Expression Capture and Animation](https://github.com/yfeng95/DECA) for 3D reconstruction from wild image
-- [GANimation](https://github.com/albertpumarola/GANimation) for inspire me the generation method
+- [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) for providing the method to extract the AUs from the face image
+- [GANimation](https://github.com/albertpumarola/GANimation) for inspiring me the generation method
 - [speech_recognition](https://github.com/Uberi/speech_recognition/tree/master) for audio-to-text processing
 - [FLAME_PyTorch](https://github.com/soubhiksanyal/FLAME_PyTorch) and [TF_FLAME](https://github.com/TimoBolkart/TF_FLAME) for the FLAME model  
 - [Pytorch3D](https://pytorch3d.org/), [neural_renderer](https://github.com/daniilidis-group/neural_renderer), [SoftRas](https://github.com/ShichenLiu/SoftRas) for rendering  
