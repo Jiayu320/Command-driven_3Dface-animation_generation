@@ -10,6 +10,12 @@ To build the environment you can run
 pip install -r requirements.txt
 ```
 
+## Pipeline
+The pipeline of this project is as follows:
+<p align="center"> 
+    <img src="./image_for_readme/pipeline.jpg">
+</p> 
+
 ## Getting Started
 There are five way to generate the 3D animation result. By using audio instruction (EN/CH), text instruction (EN/CH), single image, video sequence and action unites (AUs).
 
@@ -100,12 +106,3 @@ Here are some great resources benefit:
 - [FAN](https://github.com/1adrianb/2D-and-3D-face-alignment) for landmark detection
 - [face_segmentation](https://github.com/YuvalNirkin/face_segmentation) for skin mask
 - [VGGFace2-pytorch](https://github.com/cydonia999/VGGFace2-pytorch) for identity loss  
-
-We would also like to thank other recent public 3D face reconstruction works that allow us to easily perform quantitative and qualitative comparisons :)  
-[RingNet](https://github.com/soubhiksanyal/RingNet), 
-[Deep3DFaceReconstruction](https://github.com/microsoft/Deep3DFaceReconstruction/blob/master/renderer/rasterize_triangles.py), 
-[Nonlinear_Face_3DMM](https://github.com/tranluan/Nonlinear_Face_3DMM),
-[3DDFA-v2](https://github.com/cleardusk/3DDFA_V2),
-[extreme_3d_faces](https://github.com/anhttran/extreme_3d_faces),
-[facescape](https://github.com/zhuhao-nju/facescape)
-<!-- 3DMMasSTN, DenseReg, 3dmm_cnn, vrn, pix2vertex -->
